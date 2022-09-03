@@ -73,3 +73,4 @@ def get_post_by_pk(pk):
             return post
         if pk not in posts_pk_list:
             raise ValueError('некорректный pk')  # возвращает ошибку если пост не найден
+
